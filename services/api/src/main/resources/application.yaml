@@ -3,3 +3,5 @@ spring:
     url: jdbc:postgresql://localhost:5432/forgeflow
     username: forgeflow
     password: forgeflow
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog.yaml
