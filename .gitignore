@@ -1,0 +1,277 @@
+# =========================================================
+# OS
+# =========================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+
+# =========================================================
+# IDE
+# =========================================================
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IntelliJ shared configuration that should not be committed
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries/
+.idea/**/shelf/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/.nb-gradle/
+
+
+# =========================================================
+# Java / Maven
+# =========================================================
+
+# Maven
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+
+# Maven wrapper JAR is intentionally NOT ignored.
+# .mvn/wrapper/maven-wrapper.jar should be committed.
+
+
+# =========================================================
+# Java
+# =========================================================
+
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# Generated files
+generated/
+**/generated-sources/
+**/generated-test-sources/
+
+
+# =========================================================
+# Spring Boot
+# =========================================================
+
+# Local Spring configuration
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# Environment-specific configuration
+application-dev-local.yml
+application-dev-local.yaml
+application-prod-local.yml
+application-prod-local.yaml
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# =========================================================
+# Environment / Secrets
+# =========================================================
+
+.env
+.env.*
+!.env.example
+
+# Local secrets
+secrets/
+*.secret
+*.key
+*.pem
+*.p12
+*.jks
+
+# Credentials
+credentials.json
+service-account.json
+
+
+# =========================================================
+# Docker
+# =========================================================
+
+# Local Docker override
+docker-compose.override.yml
+
+# Docker local data
+docker-data/
+.docker/
+
+# Docker environment files
+docker.env
+docker-compose.env
+
+
+# =========================================================
+# Logs
+# =========================================================
+
+*.log
+logs/
+**/logs/
+
+
+# =========================================================
+# Temporary files
+# =========================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+tmp/
+temp/
+
+
+# =========================================================
+# Build / generated artifacts
+# =========================================================
+
+out/
+bin/
+lib/
+
+# Reports
+reports/
+**/reports/
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+
+
+# =========================================================
+# Local database / storage
+# =========================================================
+
+# PostgreSQL local data
+postgres-data/
+
+# Redis local data
+redis-data/
+
+# Kafka local data
+kafka-data/
+
+# Generic local storage
+data/
+storage/
+
+
+# =========================================================
+# Terraform
+# =========================================================
+
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+
+# =========================================================
+# Kubernetes
+# =========================================================
+
+# Local Kubernetes config
+kubeconfig
+kubeconfig.*
+
+# Local Helm files
+**/charts/*/charts/
+**/charts/*/tmp/
+
+
+# =========================================================
+# Coverage / quality tools
+# =========================================================
+
+.sonar/
+sonar-report.json
+
+
+# =========================================================
+# Local development
+# =========================================================
+
+.local/
+.local.*
+.dev/
+.dev.*
